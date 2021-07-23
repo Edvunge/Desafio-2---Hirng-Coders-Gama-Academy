@@ -27,3 +27,10 @@
         <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
         <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
       </div>
+
+       <div class="w3-row-padding" style="margin:0 -16px">
+              <div class="w3-half">
+                <img src="./img/99999999.png" width="456" height="564">
+                <img src="./img/223.png" width="324" height="453">
+                <img src="./img/44444444444.png" width="324" height="242">
+              </div>
