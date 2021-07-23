@@ -5,8 +5,17 @@
 }
 html, body{ 
     height: 100%; 
-    background-image: url(../img/backgroundImg.jpg); 
+    background-image: url(../img/backgroundImg.jpg);
+    font-family: "Montserrat", sans-serif; 
 }
+
+.w3-row-padding img {margin-bottom: 12px}
+
+/* Defina a largura da barra lateral em 120px */
+.w3-sidebar {width: 120px;background: #222;}
+
+/* Adicione uma margem esquerda ao "conteúdo da página" que corresponda à largura da barra lateral (120px) */
+#main {margin-left: 120px}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -70,3 +79,9 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+/* Remova as margens do "conteúdo da página" em telas pequenas */
+@media only screen and (max-width: 600px) {
+    #main {margin-left: 0}
+}
+
