@@ -5,8 +5,9 @@
 }
 html, body{ 
     height: 100%; 
-    background-image: url(../img/backgroundImg.jpg);
+    background-image: url(../img/pexels-alexandre-moreira-4135231.jpg);
     font-family: "Montserrat", sans-serif; 
+    
 }
 
 .w3-row-padding img {margin-bottom: 12px}
@@ -87,3 +88,30 @@ input[type=submit]:hover {
     #main {margin-left: 0}
 }
 
+nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*background-color: rgb(22, 36, 71); */
+  background-color: rgb(134, 122, 233);
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+.menu ul a {
+  padding: 30px;
+  font-size: 100%;
+  color: rgba(255, 255, 255, 1);
+}
+.menu li a:hover {
+  color: rgb(131, 169, 92);
+  background-color: rgb(158, 204, 164);
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
