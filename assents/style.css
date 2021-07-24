@@ -5,9 +5,11 @@
 }
 html, body{ 
     height: 100%; 
-    background-image: url(../img/pexels-alexandre-moreira-4135231.jpg);
+    background-image: url(../img/swiss-mountains-1362975.jpg);
     font-family: "Montserrat", sans-serif; 
-    
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
 }
 
 .w3-row-padding img {margin-bottom: 12px}
@@ -18,68 +20,13 @@ html, body{
 /* Adicione uma margem esquerda ao "conteúdo da página" que corresponda à largura da barra lateral (120px) */
 #main {margin-left: 120px}
 
-
+/* logo principal no cabeçario parte superior esquerdo */
 /*
-input[type=text], select, textarea {
-  
-  width: 520px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-    
+#logoPrincipal{
+  width: 254448;
+  height: 5555454;
+  border-radius: 1px 2px;
 }
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 90px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-
-    background:#000;
-    opacity: 0.7; 
-    filter:alpha(opacity=70); 
-    zoom:1; 
-
-}
-
-.col-25 {
-  
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-
-}
-
-.col-75 {
-  float: right;
-  width: 75%;
-  margin-top: 6px;
-}
-
-isto é um comentario:  Clear floats after the columns 
-
- .row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 */
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
@@ -101,8 +48,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: 	rgb(104, 173, 243);
-  /*background-color: rgb(134, 122, 233);*/
+  /*background-color: rgb(6, 152, 249);*/
+  background-color: rgb(57, 142, 198);
 }
 .menu ul {
   display: flex;
@@ -115,7 +62,8 @@ nav {
   color: rgba(255, 255, 255, 1);
 }
 .menu li a:hover {
-  color: rgb(131, 169, 92);
+  /*color: rgb(131, 169, 92); */
+  color: 	rgb(204, 0, 51);
   background-color: rgb(158, 204, 164);
   transition: 0.3s ease-in-out;
   -webkit-transition: 0.3s ease-in-out;
