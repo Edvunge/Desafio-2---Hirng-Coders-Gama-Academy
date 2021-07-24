@@ -32,3 +32,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
