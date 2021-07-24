@@ -1,15 +1,16 @@
 *  {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 html, body{ 
-    height: 100%; 
-    background-image: url(../img/swiss-mountains-1362975.jpg);
-    font-family: "Montserrat", sans-serif; 
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
+  height: 100%; 
+  background-image: url(../img/swiss-mountains-1362975.jpg);
+  font-family: "Montserrat", sans-serif; 
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  position: relative;
 }
 
 .w3-row-padding img {margin-bottom: 12px}
@@ -24,59 +25,88 @@ html, body{
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
+.col-25, .col-75, input[type=submit] {
+  width: 100%;
+  margin-top: 0;
+}
 }
 
 /* Remova as margens do "conteúdo da página" em telas pequenas */
 @media only screen and (max-width: 600px) {
-    #main {margin-left: 0}
+  #main {margin-left: 0}
 }
 
 @media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
+nav, article {
+  width: 100%;
+  height: auto;
+}
 }
 
 
 /* ---------------------------------------------- INICIO DO NAVBAR ------------------------------------------------- */
-
+/*
 nav {
-  height: 80px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /*background-color: rgb(6, 152, 249);*/
-  background-color: rgb(57, 142, 198);
+height: 80px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+background-color: rgb(57, 142, 198);
 }
 
 .menu ul {
-  display: flex;
-  align-items: center;
-  font-weight: 500;
+display: flex;
+align-items: center;
+font-weight: 500;
 }
 
 .menu ul a {
-  padding: 30px;
-  font-size: 100%;
-  color: rgba(255, 255, 255, 1);
+padding: 30px;
+font-size: 100%;
+color: rgba(255, 255, 255, 1);
 }
 
 .menu li a:hover {
-  /*color: rgb(131, 169, 92); */
-  color: 	rgb(204, 0, 51);
-  background-color: rgb(158, 204, 164);
-  transition: 0.3s ease-in-out;
-  -webkit-transition: 0.3s ease-in-out;
-  -moz-transition: 0.3s ease-in-out;
-  -o-transition: 0.3s ease-in-out;
+
+color: 	rgb(204, 0, 51);
+background-color: rgb(158, 204, 164);
+transition: 0.3s ease-in-out;
+-webkit-transition: 0.3s ease-in-out;
+-moz-transition: 0.3s ease-in-out;
+-o-transition: 0.3s ease-in-out;
 }
 
+footer {
+background-color: rgb(57, 142, 198);
+padding: 10px;
+text-align: center;
+color: white;
+
+}
+*/
+/* ------------------------------------------------- FIM DO NAVBAR --------------------------------------------------------- */
+/*
+body {
+  position: relative; 
+}
+*/
+.affix {
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+
+.affix ~ .container-fluid {
+ position: relative;
+ top: 50px;
+}
 footer {
   background-color: rgb(57, 142, 198);
   padding: 10px;
@@ -84,5 +114,12 @@ footer {
   color: white;
 
 }
+/*
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+*/
 
-/* ------------------------------------------------- FIM DO NAVBAR --------------------------------------------------------- */
+
