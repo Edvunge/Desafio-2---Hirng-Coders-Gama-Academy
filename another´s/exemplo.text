@@ -74,3 +74,12 @@
                       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
                     </div>
                   </div>
+
+                  
+        <form action="/action_page.php" target="_blank">
+          <p><input class="input padding-18896" type="text" placeholder="Name" required name="Name"></p>
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+          <p>
+        </form>

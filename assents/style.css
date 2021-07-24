@@ -21,13 +21,6 @@ html, body{
 #main {margin-left: 120px}
 
 /* logo principal no cabeçario parte superior esquerdo */
-/*
-#logoPrincipal{
-  width: 254448;
-  height: 5555454;
-  border-radius: 1px 2px;
-}
-*/
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -42,6 +35,16 @@ html, body{
     #main {margin-left: 0}
 }
 
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/* ---------------------------------------------- INICIO DO NAVBAR ------------------------------------------------- */
+
 nav {
   height: 80px;
   width: 100%;
@@ -51,16 +54,19 @@ nav {
   /*background-color: rgb(6, 152, 249);*/
   background-color: rgb(57, 142, 198);
 }
+
 .menu ul {
   display: flex;
   align-items: center;
   font-weight: 500;
 }
+
 .menu ul a {
   padding: 30px;
   font-size: 100%;
   color: rgba(255, 255, 255, 1);
 }
+
 .menu li a:hover {
   /*color: rgb(131, 169, 92); */
   color: 	rgb(204, 0, 51);
@@ -70,3 +76,13 @@ nav {
   -moz-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
 }
+
+footer {
+  background-color: rgb(57, 142, 198);
+  padding: 10px;
+  text-align: center;
+  color: white;
+
+}
+
+/* ------------------------------------------------- FIM DO NAVBAR --------------------------------------------------------- */
