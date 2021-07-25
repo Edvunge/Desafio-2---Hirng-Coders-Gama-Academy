@@ -4,10 +4,16 @@
   padding:0;
   box-sizing: border-box;
 }
-
+/*
+body{
+  background:	rgb(94, 172, 250);
+  background: rgb(104, 94, 186);
+}
+*/
 html, body{ 
   height: 100%; 
-  background-image: url(../img/swiss-mountains-1362975.jpg);
+  background-image: url(../img/imagens/fd/pexels-tara-winstead-8386436.jpg); 
+  
   font-family: "Montserrat", sans-serif; 
   background-repeat: no-repeat;
   background-position: center top;
@@ -148,18 +154,6 @@ footer {
       color: #f4511e;
     }
   
-
-
-
-
-
-
-
-
-
-
-
-
 .panel {
   border: 1px solid #f4511e;
   border-radius:0;
