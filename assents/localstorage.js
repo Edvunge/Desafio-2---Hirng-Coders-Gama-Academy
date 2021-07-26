@@ -1,10 +1,18 @@
 window.onload = function(){
-    var btsalvar = document.getElementById("btsalvar");
+    var btsubmit = document.getElementById("btsubmit");
     var btler = document.getElementById("btler");
     var btapagar = document.getElementById("btapagar");
 
 
-    btsalvar.onclick = salvarNome;
+    btsubmit.onclick = buttonsnome;
+    btsubmit.onclick = submitsobrenome;
+    btsubmit.onclick = submitemail;
+    btsubmit.onclick = submitdtnasc;
+    btsubmit.onclick = submitfilhos;
+    btsubmit.onclick = submitAdvogado;
+    btsubmit.onclick = submitPROGRAMADOR;
+    btsubmit.onclick = submitMedico;
+    btsubmit.onclick = submitsobre;
     btler.onclick = lerNome;
     btapagar.onclick = apagarNome;
 }
